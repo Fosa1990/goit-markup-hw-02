@@ -19,11 +19,12 @@
   --banner-bg-color: #2f303a;
 }
 
-/* Html */
-header {
+/* HTML */
+/* INDEX */
+.header {
   background-color: #ffffff;
 }
-footer {
+.footer {
   background-color: #2f303a;
 }
 /* Body */
@@ -61,11 +62,11 @@ ul {
   color: var(--accent-color);
 }
 /* Контакты */
-.site-nav .list {
+.site-nav.list {
   color: var(--primary-text-color);
 }
-.site-nav .list:hover,
-.site-nav .list:focus {
+.site-nav.list:hover,
+.site-nav.list:focus {
   color: var(--accent-color);
 }
 /* Баннер */
@@ -75,8 +76,13 @@ ul {
 .hero-title {
   color: #ffffff;
 }
-.button {
+.hero-button {
   color: #ffffff;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color);
 }
 /* Особенности */
 .title {
@@ -101,6 +107,18 @@ ul {
 .team {
   background-color: var(--secondary-bg-color);
 }
+
+/* PORTFOLIO */
+
+.button {
+  color: #000000;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+}
+
 /* Подвал Footer */
 .address-text {
   color: #ffffff;
@@ -110,4 +128,7 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* tests */
+.address-nav .link:hover,
+.address-nav .link:focus {
+  color: var(--accent-color);
+}
