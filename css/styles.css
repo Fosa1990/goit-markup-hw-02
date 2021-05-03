@@ -1,0 +1,35 @@
+/* цвет основного ТЕКСТА #000000 [ --primary-text-color ] */
+/* вотричний цвет ТЕКСТА  rgba(0, 0, 0, 0.8) [ --secondary-text-color ] */
+
+/* акцент #18a0fb [ --accent-color */
+
+/* главный цвет ФОНА #ffffff [ --primary-bg-color ] */
+/* вторичный цвет ФОНА #f5f5f5 [ --secondary-bg-color ] */
+
+/* Использовать: color: var(--primary-text-color); */
+
+/* Правила */
+:root {
+  --primary-text-color: #000000;
+  --secondary-text-color: rgba(0, 0, 0, 0.8);
+  --accent-color: #18a0fb;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f5f5f5;
+}
+/* html */
+
+/* body */
+
+/* Главная навигация */
+
+/* Контакты */
+
+/* Баннер */
+
+/* Особенности */
+
+/* Чем мы занимаемся */
+
+/* Наша команда */
+
+/* Подвал Footer */
