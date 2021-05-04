@@ -20,18 +20,24 @@
 }
 
 /* HTML */
-/* INDEX */
+
 .header {
   background-color: #ffffff;
 }
 .footer {
   background-color: #2f303a;
 }
+/* INDEX */
 /* Body */
 /* Правила для всей страницы */
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
+
+  font-family: 'roboto', 'raleway', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* убираем подчеркивание у всех ссылoк */
@@ -44,6 +50,14 @@ ul {
 }
 /* Главная навигация */
 /* Логотип */
+
+.logo {
+  font-family: 'raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
@@ -51,6 +65,10 @@ ul {
 /* Навигация по страницам */
 .site-nav .link {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -62,47 +80,87 @@ ul {
   color: var(--accent-color);
 }
 /* Контакты */
-.site-nav.list {
-  color: var(--primary-text-color);
-}
+
 .site-nav.list:hover,
 .site-nav.list:focus {
   color: var(--accent-color);
 }
-/* Баннер */
+/* Баннер (Герой) */
 .hero {
   background-color: var(--banner-bg-color);
 }
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-button {
   color: #ffffff;
+  background-color: var(--accent-color);
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero-button:hover,
 .hero-button:focus {
   color: var(--accent-color);
+  background-color: #ffffff;
 }
 /* Особенности */
 .title {
   color: var(--secondary-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .title-text {
   color: var(--primary-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /* Чем мы занимаемся */
 .section-title {
   color: var(--secondary-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Наша команда */
 .team-list {
   color: var(--secondary-text-color);
 }
+
+.team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18x;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .team-list-job {
   color: var(--primary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team {
   background-color: var(--secondary-bg-color);
@@ -110,25 +168,64 @@ ul {
 
 /* PORTFOLIO */
 
+.card-name {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card-text {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
 .button {
   color: #000000;
   cursor: pointer;
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 /* Подвал Footer */
 .address-text {
   color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address-nav .link {
   color: rgba(255, 255, 255, 0.6);
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address-nav .link:hover,
 .address-nav .link:focus {
   color: var(--accent-color);
 }
+/* QnA */
+/* 1) Как сделать логотип как на макете?(не вижу цветов на макете) */
+/* 2) Подскажите что еще надо разметить и изменить. Спасибо. С праздниками вас (^_^) */
