@@ -34,7 +34,8 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 
-  font-family: 'roboto', 'raleway', sans-serif;
+  font-family: 'roboto', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -53,7 +54,8 @@ ul {
 
 .logo {
   font-family: 'raleway', sans-serif;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -102,6 +104,9 @@ ul {
   color: #ffffff;
   background-color: var(--accent-color);
   cursor: pointer;
+  font-family: 'roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -117,28 +122,24 @@ ul {
 /* Особенности */
 .title {
   color: var(--secondary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .title-text {
   color: var(--primary-text-color);
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-weight: 400;
 }
+
 /* Чем мы занимаемся */
 .section-title {
   color: var(--secondary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* Наша команда */
@@ -151,16 +152,14 @@ ul {
   font-size: 16px;
   line-height: 1.18x;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-list-job {
   color: var(--primary-text-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .team {
   background-color: var(--secondary-bg-color);
@@ -168,28 +167,11 @@ ul {
 
 /* PORTFOLIO */
 
-.card-name {
-  color: var(--secondary-text-color);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.card-text {
-  color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-}
-
+/* Кнопки фильтров */
 .button {
   color: #000000;
   cursor: pointer;
-  font-family: 'roboto';
+  font-family: 'roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -203,10 +185,30 @@ ul {
   background-color: var(--accent-color);
 }
 
+/* Плитки с карточками */
+.card-name {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card-text {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
 /* Подвал Footer */
 .address-text {
   color: #ffffff;
+  font-family: 'roboto', sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -214,9 +216,9 @@ ul {
 
 .address-nav .link {
   color: rgba(255, 255, 255, 0.6);
-  font-family: 'roboto';
+  font-family: 'roboto', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
